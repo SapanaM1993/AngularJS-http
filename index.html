@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <script src="lib/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/getData.service.js"></script>
+        <script type="text/javascript" src="js/showTable.directive.js"></script>
+
+       
+    
+        
+    </head>
+<body>
+<div class="container" ng-app="app" ng-controller="myCtrl">
+    <div class="row">
+            <input class="search input-lg" type="text" ng-model="search" placeholder="search..">
+    </div>
+    
+    <showTable></showTable>
+</div>
+ </body>
+ </html>

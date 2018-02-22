@@ -1,0 +1,34 @@
+$LightBlueColor:#0A586D;
+$fontSize:15px;
+$standardMargin:10px;
+
+body{
+    background: skyblue !important;
+    color: $LightBlueColor !important;
+}
+#divTable{
+    font-family: 'Open Sans', sans-serif;
+    font-size: $fontSize;
+    color: white;
+    background: $LightBlueColor;;
+    margin: $standardMargin;
+    border-radius: 20px;
+}
+thead{
+    font-size: ($fontSize + 5) !important; 
+
+}
+th {
+   
+    color: #E2B842;
+    font-weight: 600;
+    text-align: center !important;
+  }
+
+ .search{
+     padding: 5px;
+     border-radius: 20px;
+     margin: $standardMargin;
+
+ }
+
